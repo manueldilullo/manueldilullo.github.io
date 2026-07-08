@@ -9,115 +9,130 @@ let info = {
     }
   },
   description:
-    "I'm a Data and Cloud Engineer with a passion for building projects and discover new technologies. Devoted to continuous learning and always ready to risk, even at the cost to receive negative responses. Healthy competition stimulate me, so hackathons and challenges are the perfect environment for me. ",
+    "Data & Cloud Infrastructure Architect with a strong engineering background in Cloud environments and AI/ML solutions. Proven track record in designing, securing, and optimizing enterprise hybrid and multicloud architectures. Adept at leading cross-functional teams to bridge the gap between cloud governance, advanced data engineering (RAG, Cloudera), and strict compliance frameworks (GDPR, Zero Trust). Recognized for technical innovation through multiple hackathon wins and a results-driven approach to complex infrastructure scalability.",
   links: {
     linkedin: "https://www.linkedin.com/in/manuel-di-lullo-83ba23145/",
     github: "https://github.com/manueldilullo",
     email: "mailto:manuel.dilullo99@gmail.com",
-    resume: "https://raw.githubusercontent.com/manueldilullo/manueldilullo.github.io/master/resume/ManuelDiLullo_Resume.pdf",
+    resume: "https://manueldilullo.github.io/resume/Resume.pdf",
     angellist: ""
   },
   education: [
     {
-      name: "Sapienza Università di Roma",
-      place: "Italy",
-      date: "Sep, 2022 - Present",
-      degree: "Master's degree in Computer Science",
-      skills: [
-        "Path in Multimedia Computing and Interaction"
-      ]
+      name: "University of Rome La Sapienza",
+      place: "Rome, Italy",
+      date: "Apr, 2022 - Jan, 2026",
+      degree: "M.S. in Computer Science — 108/110",
+      description:
+        "Thesis: Agentic AI for AI Act and GDPR Compliance. Specialized in Cloud Computing, Data & Network Security, Natural Language Processing (NLP), and Biometric Computer Vision.",
+      skills: []
     },
     {
-      name: "Università di Roma Tor Vergata",
-      place: "Italy",
+      name: "University of Rome Tor Vergata",
+      place: "Rome, Italy",
       date: "Sep, 2018 - Feb, 2022",
-      degree: "Bachelors in Computer Science",
+      degree: "B.S. in Computer Science — 103/110",
       description:
-        "Thesis: A framework for Natural Language Processing: performance analysis for the resolution of task of Text Classification and Named Entity Recognition in distributed environment",
+        "Thesis: A framework for NLP: performance analysis for the resolution of task of Text Classification and Named Entity Recognition in distributed environment. Advanced coursework in Software Design, Distributed Systems, Cybersecurity, and Machine Learning.",
       skills: []
     }
   ],
   experience: [
-
+    {
+      name: "Terna SpA",
+      place: "Rome, Italy",
+      date: "Feb, 2026 - Present",
+      position: "Cloud Infrastructure Specialist",
+      description:
+        "Multicloud Governance: design hybrid and multicloud architectures using serverless and containerized services (K8S, OpenShift). Data Engineering & AI: architect integrations for data platforms, ETL and RAG pipelines for advanced data querying. Security & Compliance: design of Zero Trust multicloud security, strong authentication, On-Behalf-Of (OBO) patterns, RBAC models. DevOps Automation: engineer e2e CI/CD pipelines within Azure DevOps to automate infrastructure provisioning. FinOps & Management: cloud cost optimization, monitor resource provisioning, and manage vendors delivery.",
+      skills: [
+        "Hybrid & Multicloud",
+        "K8S / OpenShift",
+        "Data Engineering / RAG",
+        "Zero Trust / RBAC",
+        "Azure DevOps CI/CD",
+        "FinOps"
+      ]
+    },
     {
       name: "Storm Reply",
-      place: "Italy",
-      date: "Sep, 2022 - Present",
+      place: "Rome, Italy",
+      date: "Sep, 2022 - Jan, 2026",
       position: "Cloud Engineer",
       description:
-        "Cloud Engineer and solution ",
-        skills: [
-          "Amazon Web Sevices",
-          "AWS Serverless Development",
-          "Cloud native AWS web application development",
-          "DevOps, CI/CD automation",
-          "IaC (Terraform, Terragrunt)",
-          "Languages: Python, Typescript, Bash, MySQL",
-        ]
-    },
-
+        "AWS Cloud Expertise: proficient in AWS services, containers (Docker, K8S), SaaS, and CI/CD pipelines. Data Engineering & AI: development of efficient and cost-effective ETL workflows with AWS Glue, Athena, SageMaker, and Bedrock. Networking & Security: networking and high-availability architectures ensuring security via IAM, KMS encryption and strong auth. Programming & Automation: skilled in Node.js, Python, Bash, AWS SDKs and IaC with Terraform and Terragrunt. Business & Consulting Skills: cloud strategy, cost optimization, stakeholder management.",
+      skills: [
+        "Amazon Web Services",
+        "AWS Serverless Development",
+        "Cloud native AWS web application development",
+        "DevOps, CI/CD automation",
+        "IaC (Terraform, Terragrunt)",
+        "Languages: Python, TypeScript, Bash, MySQL"
+      ]
+    }
   ],
   skills: [
     {
-      title: "languages",
+      title: "hybrid & multicloud",
       info: [
-        "Python",
-        "Typescript",
-        "Bash",
-        "Java"
-      ],
-      icon: "fa fa-code"
-    },
-    {
-      title: "data frameworks",
-      info: [
-        "Spark",
-        "Spark NLP",
-        "Hadoop"
-      ],
-      icon: "fa fa-cubes"
-    },
-    {
-      title: "cloud technologies",
-      info: [
-        "Amazon AWS",  
-        "AWS Serverless development",
+        "AWS",
+        "Azure",
+        "Kubernetes",
+        "OpenShift",
+        "Hybrid Connectivity (VPN / Direct Connect)"
       ],
       icon: "fas fa-cloud"
     },
     {
-      title: "databases",
+      title: "iac & devops",
       info: [
-        "MongoDB", 
-        "MySQL", 
-        "PostgreSQL",
-        "DynamoDB",
-        "Amazon RDS",
-      ],
-      icon: "fa fa-database"
-    },
-    {
-      title: "operating systems & tools",
-      info: [
-        "Windows",
-        "Linux (Debian and Arch families)",
-        "Git",
-        "Docker"
+        "Terraform",
+        "Terragrunt",
+        "CloudFormation",
+        "AWS CDK",
+        "Azure DevOps",
+        "GitHub Actions",
+        "CI/CD Pipelines",
+        "Bash"
       ],
       icon: "fas fa-tools"
     },
     {
-      title: "web technologies",
+      title: "data & ai engineering",
       info: [
-        "Vue.js",  
-        "PHP", 
-        "Node.js", 
+        "Cloudera",
+        "Spark",
+        "Hadoop",
+        "Python",
+        "Pandas",
+        "SQL (PostgreSQL, MySQL)",
+        "NoSQL (MongoDB)",
+        "RAG"
       ],
-      icon: "fas fa-laptop-code"
+      icon: "fa fa-cubes"
     },
+    {
+      title: "security & governance",
+      info: [
+        "IAM",
+        "Zero Trust Architecture",
+        "RBAC",
+        "Encryption",
+        "Cloud Compliance (GDPR, ISO)",
+        "FinOps & Cost Optimization"
+      ],
+      icon: "fas fa-shield-alt"
+    },
+    {
+      title: "languages",
+      info: [
+        "Italian (Native)",
+        "English (CAE Certified)"
+      ],
+      icon: "fa fa-globe"
+    }
   ],
   portfolio: [
-
     {
       name: "Bachelor's degree Thesis",
       pictures: [
@@ -134,22 +149,21 @@ let info = {
         It describes an experimental evaluation of a solution for tasks of Named Entity Recognition and Text Classification using Spark NLP \
         in a distributed environment alongside Apache Hadoop and Apache Spark. The contents are in Italian."
     },
-
     {
       name: "Did you Play?",
       pictures: [
         {
           img: new URL("./src/assets/portfolio/Dup/dup.png", import.meta.url).href
-        },
+        }
       ],
       technologies: ["Java", "Android", "SQLite"],
       category: "Android App",
       github: "https://github.com/manueldilullo/Did-you-play",
       date: "July 2021",
-      description:  
-      "School project for the Android development using Java course. \
-      Have you played with all the games in your list? Are you waiting for a new videogame and you absolutely don't want to miss it on day one? \
-      Did you play a game but you don't remember its name? Did you play? helps you solve all the classic problems that plague the average gamer!",
+      description:
+        "School project for the Android development using Java course. \
+        Have you played with all the games in your list? Are you waiting for a new videogame and you absolutely don't want to miss it on day one? \
+        Did you play a game but you don't remember its name? Did you play? helps you solve all the classic problems that plague the average gamer!"
     },
     {
       name: "ElysiumDB",
@@ -157,7 +171,6 @@ let info = {
         {
           img: new URL("./src/assets/portfolio/Elysium/elysium.jpg", import.meta.url).href
         }
-
       ],
       technologies: ["MySQL", "MongoDB"],
       category: "High School thesis",
@@ -175,7 +188,6 @@ let info = {
         {
           img: new URL("./src/assets/portfolio/AlbionLootSplitter/albiononline.jpg", import.meta.url).href
         }
-
       ],
       technologies: ["JavaScript", "CSS", "HTML", "PHP"],
       category: "Database design and implementation",
@@ -194,13 +206,12 @@ let info = {
         {
           img: new URL("./src/assets/portfolio/VirusVaccines/virus_vaccines.jpg", import.meta.url).href
         }
-
       ],
       technologies: ["Java", "Android"],
       category: "1 Day hackathon project",
       github: "https://github.com/manueldilullo/Virus-and-Vaccines",
       date: "Oct, 2021",
-      description: 
+      description:
         "Android application for SpaceApps 2021 Hackathon developed by Latitude team! \
         With V&V, you can build your character simply adding to it what you are taking with you to fight Covid-19: masks, sanitizer, vaccine. When you put on a mask, \
         annotate it in V&V, the app will track the period of validity of it. When you put on the equipment, your player will gain boosts in his statistics, \
@@ -212,7 +223,6 @@ let info = {
         {
           img: new URL("./src/assets/portfolio/Image2Pdf/img2pdf.png", import.meta.url).href
         }
-
       ],
       technologies: ["Python", "Pillow"],
       category: "Script",
@@ -221,11 +231,8 @@ let info = {
       description:
         "Simply converter from png to pdf and vice versa.\
         With this script you can choose if create a pdf using a set of images or to split a pdf in pages and save them as images."
-    },
-  ],
+    }
+  ]
 };
 
 export default info;
-
-
-
