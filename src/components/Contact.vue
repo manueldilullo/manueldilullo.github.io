@@ -1,4 +1,4 @@
-<template>
+﻿<template>
   <div
     class="py-4 p-st"
     :class="{
@@ -116,7 +116,7 @@
 import config from "../../config";
 import emailjs from "emailjs-com";
 
-import Snackbar from "./helpers/Snackbar";
+import Snackbar from "./helpers/Snackbar.vue";
 
 export default {
   name: "Contact",

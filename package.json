@@ -1,51 +1,33 @@
 {
   "name": "natain-portfolio",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "private": true,
+  "type": "module",
   "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "dependencies": {
-    "@chenfengyuan/vue-carousel": "^1.0.5",
     "aos": "^3.0.0-beta.6",
-    "babel-helper-vue-jsx-merge-props": "^2.0.3",
-    "core-js": "^3.6.4",
     "emailjs-com": "^2.4.1",
+    "floating-vue": "^5.2.2",
     "material-icons": "^0.3.1",
-    "serve": "^11.3.0",
-    "v-tooltip": "^2.0.3",
-    "vue": "^2.6.11",
-    "vue-cookie": "^1.1.4",
-    "vue-nav-tabs": "^0.5.7",
-    "vue-parallax-js": "^0.2.3",
-    "vue-router": "^3.3.4",
-    "vue-scrollto": "^2.18.1",
-    "vue-selector": "0.0.1",
-    "vueperslides": "^2.10.2"
+    "vue": "^3.4.0",
+    "vue-router": "^4.3.0",
+    "vueperslides": "^3.6.0"
   },
-  
   "devDependencies": {
-    "@vue/cli-plugin-babel": "~4.3.0",
-    "@vue/cli-plugin-eslint": "~4.3.0",
-    "@vue/cli-service": "~4.3.0",
-    "babel-eslint": "^10.1.0",
-    "eslint": "^6.7.2",
-    "eslint-plugin-vue": "^6.2.2",
-    "vue-template-compiler": "^2.6.11"
+    "@vitejs/plugin-vue": "^5.0.0",
+    "vite": "^5.0.0"
   },
   "keywords": [],
-  "description": "> This is a simple, minimal and responsive personal website template, built using vue-js, html and css.",
-  "main": ".eslintrc.js",
+  "description": "Personal portfolio built with Vue 3 and Vite.",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Natain/natain-portfolio.git"
+    "url": "git+https://github.com/manueldilullo/manueldilullo.github.io.git"
   },
-  "author": "Natain Bogdan",
+  "author": "Manuel Di Lullo",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/Natain/natain-portfolio/issues"
-  },
-  "homepage": "https://github.com/Natain/natain-portfolio#readme"
+  "homepage": "https://manueldilullo.github.io"
 }

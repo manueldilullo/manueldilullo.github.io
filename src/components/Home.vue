@@ -40,10 +40,10 @@
             <button
             
               class="btn btn-outline-secondary mx-2"
-              @click="open('angellist')"
-              v-tooltip.bottom="'AngelList'"
+              @click="open('email')"
+              v-tooltip.bottom="'Email'"
             >
-              <i class="fab fa-angellist"></i>
+              <i class="fa fa-envelope"></i>
             </button>
             <button
               class="btn btn-outline-secondary mx-2"
@@ -62,7 +62,7 @@
 <script>
 import info from "../../info";
 
-import Wave from "./helpers/Wave";
+import Wave from "./helpers/Wave.vue";
 
 export default {
   name: "Home",
@@ -76,12 +76,12 @@ export default {
   },
   data() {
     return {
-      picture: info.flat_picture,
+      picture: info.flat_picture || "",
       description: info.description,
       name: info.name,
       linkedin: info.links.linkedin,
       github: info.links.github,
-      angellist: info.links.angellist,
+      angellist: info.links.angellist || "",
       resume: info.links.resume
     };
   },

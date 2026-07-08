@@ -1,37 +1,19 @@
-import Vue from 'vue'
+import { createApp } from 'vue'
 import App from './App.vue'
+import router from './router'
 
 import AOS from 'aos'
 import 'aos/dist/aos.css'
-import VueParallaxJs from 'vue-parallax-js'
-import VueScrollTo from 'vue-scrollto'
-import VueRouter from 'vue-router'
-import VTooltip from 'v-tooltip'
+import FloatingVue from 'floating-vue'
+import 'floating-vue/dist/style.css'
 
-var VueCookie = require('vue-cookie');
+import './style.css'
 
-Vue.use(VTooltip)
-Vue.use(VueRouter)
-Vue.use(VueScrollTo)
-Vue.use(VueCookie);
-Vue.use(VueParallaxJs)
+const app = createApp(App)
 
-Vue.config.productionTip = false
+app.use(router)
+app.use(FloatingVue)
 
-const routes = [
-  { path: '/'}
-]
+app.mount('#app')
 
-
-const router = new VueRouter({
-  mode:'history',
-  routes // short for `routes: routes`
-})
-
-new Vue({
-  created () {
-    AOS.init()
-  },
-  router,
-  render: h => h(App),
-}).$mount('#app')
+AOS.init()

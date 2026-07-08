@@ -38,7 +38,7 @@
 
 
 <script>
-import Timeline from "./helpers/Timeline";
+import Timeline from "./helpers/Timeline.vue";
 import info from "../../info";
 
 export default {
