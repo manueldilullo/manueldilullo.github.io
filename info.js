@@ -1,7 +1,7 @@
 let info = {
   name: "Manuel Di Lullo",
   logo_name: "Manuel",
-  flat_picture: "./src/assets/pic.jpg",
+  flat_picture: new URL("./src/assets/pic.jpg", import.meta.url).href,
   config: {
     use_cookies: true,
     navbar: {
@@ -122,7 +122,7 @@ let info = {
       name: "Bachelor's degree Thesis",
       pictures: [
         {
-          img: require("./src/assets/portfolio/BachelorsThesis/apachespark.jpg")
+          img: new URL("./src/assets/portfolio/BachelorsThesis/apachespark.jpg", import.meta.url).href
         }
       ],
       technologies: ["Python", "Spark", "SparkNLP", "Hadoop", "LaTeX"],
@@ -139,7 +139,7 @@ let info = {
       name: "Did you Play?",
       pictures: [
         {
-          img: require("./src/assets/portfolio/Dup/dup.png")
+          img: new URL("./src/assets/portfolio/Dup/dup.png", import.meta.url).href
         },
       ],
       technologies: ["Java", "Android", "SQLite"],
@@ -155,7 +155,7 @@ let info = {
       name: "ElysiumDB",
       pictures: [
         {
-          img: require("./src/assets/portfolio/Elysium/elysium.jpg")
+          img: new URL("./src/assets/portfolio/Elysium/elysium.jpg", import.meta.url).href
         }
 
       ],
@@ -173,7 +173,7 @@ let info = {
       name: "Albion Loot Splitter",
       pictures: [
         {
-          img: require("./src/assets/portfolio/AlbionLootSplitter/albiononline.jpg")
+          img: new URL("./src/assets/portfolio/AlbionLootSplitter/albiononline.jpg", import.meta.url).href
         }
 
       ],
@@ -192,7 +192,7 @@ let info = {
       name: "Virus and Vaccines",
       pictures: [
         {
-          img: require("./src/assets/portfolio/VirusVaccines/virus_vaccines.jpg")
+          img: new URL("./src/assets/portfolio/VirusVaccines/virus_vaccines.jpg", import.meta.url).href
         }
 
       ],
@@ -210,7 +210,7 @@ let info = {
       name: "Image2Pdf",
       pictures: [
         {
-          img: require("./src/assets/portfolio/Image2Pdf/img2pdf.png")
+          img: new URL("./src/assets/portfolio/Image2Pdf/img2pdf.png", import.meta.url).href
         }
 
       ],
