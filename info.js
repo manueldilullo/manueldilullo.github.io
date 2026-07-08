@@ -1,7 +1,7 @@
 let info = {
-  name: "Natain Bogdan",
-  logo_name: "Bogdan",
-  flat_picture: require("./src/assets/potrait.jpg"),
+  name: "Manuel Di Lullo",
+  logo_name: "Manuel",
+  flat_picture: "./src/assets/pic.jpg",
   config: {
     use_cookies: true,
     navbar: {
@@ -9,70 +9,50 @@ let info = {
     }
   },
   description:
-    "I'm a Front-end  Web Developer with a passion for building projects that are used routinely. Building applications in JavaScript. Former supervisor and finance professional who's eager to enhance a company's user experience. ",
+    "I'm a Data and Cloud Engineer with a passion for building projects and discover new technologies. Devoted to continuous learning and always ready to risk, even at the cost to receive negative responses. Healthy competition stimulate me, so hackathons and challenges are the perfect environment for me. ",
   links: {
-    linkedin: "https://www.linkedin.com/in/natain/",
-    github: "https://github.com/Natain",
-    angellist: "https://angel.co/u/Natain-Bogdan",
-    resume:
-      "https://github.com/Natain/Resume/blob/main/Resume-Natain-Bogdan.pdf"
+    linkedin: "https://www.linkedin.com/in/manuel-di-lullo-83ba23145/",
+    github: "https://github.com/manueldilullo",
+    email: "mailto:manuel.dilullo99@gmail.com",
+    resume: "https://raw.githubusercontent.com/manueldilullo/manueldilullo.github.io/master/resume/ManuelDiLullo_Resume.pdf",
+    angellist: ""
   },
   education: [
     {
       name: "Sapienza Università di Roma",
-      place: "italy",
-      date: "May, 2009 - May, 2011",
-      degree: "Economics Science",
-      gpa: "3.7/4.0",
-
+      place: "Italy",
+      date: "Sep, 2022 - Present",
+      degree: "Master's degree in Computer Science",
       skills: [
-        // "Skills gained:",
-        // "Design, conduct and interpret research and statistical analysis. ",
-        // "Apply an evidence-based approach to problems.",
-        // "Communicate findings using models, charts and graphs.",
-        // "Communicate research findings using clear, accurate, concise writing.",
-
-
+        "Path in Multimedia Computing and Interaction"
       ]
     },
     {
-      name: "Ilbah workshops",
-      course:"Full Stack Developer",
-      place: "Bucharest/Romania",
-      date: "May, 2021 - Oct, 2021",
-      degree: "Bachelors in Programmer Help, cod COR 351201",
-      gpa: "8.5/10.0",
+      name: "Università di Roma Tor Vergata",
+      place: "Italy",
+      date: "Sep, 2018 - Feb, 2022",
+      degree: "Bachelors in Computer Science",
       description:
-        "",
-      skills: [
-        "HTML5",
-        "CSS3",
-        "JavaScript",
-        "OOP",
-        "PHP",
-        "MySql",
-       "Laravel"
-      ]
+        "Thesis: A framework for Natural Language Processing: performance analysis for the resolution of task of Text Classification and Named Entity Recognition in distributed environment",
+      skills: []
     }
   ],
   experience: [
 
     {
-      name: "Freelancer",
-      place: "Bucharest, Romania",
-      date: "Aug, 2021 - Present",
-      position: "Full Stack Web Developer",
+      name: "Storm Reply",
+      place: "Italy",
+      date: "Sep, 2022 - Present",
+      position: "Cloud Engineer",
       description:
-        "Developing Front-end website architecture.Designing user interactions on web pages.Ensuring responsiveness of applications.Working alongside graphic designers for web design features.Seeing through a project from conception to finished product.Staying abreast of developments in web applications and programming languages. Degree: Program Help Cod COR 351201.Strong organizational and project management skills.Proficiency with fundamental Front-end languages such as HTML, CSS, and JavaScript.Familiarity with JavaScript frameworks such as  React.js, and Vue.js.",
+        "Cloud Engineer and solution ",
         skills: [
-          "HTML5",
-          "CSS3",
-          "JavaScript",
-          "Bootstrap",
-          "React.js",
-          "Vue.js",
-
-
+          "Amazon Web Sevices",
+          "AWS Serverless Development",
+          "Cloud native AWS web application development",
+          "DevOps, CI/CD automation",
+          "IaC (Terraform, Terragrunt)",
+          "Languages: Python, Typescript, Bash, MySQL",
         ]
     },
 
@@ -81,134 +61,168 @@ let info = {
     {
       title: "languages",
       info: [
-        "Javascript",
-        "CSS",
-        "HTML5"
-
+        "Python",
+        "Typescript",
+        "Bash",
+        "Java"
       ],
       icon: "fa fa-code"
     },
     {
       title: "data frameworks",
       info: [
-        "Pillow"
+        "Spark",
+        "Spark NLP",
+        "Hadoop"
       ],
       icon: "fa fa-cubes"
     },
     {
-      title: "web technologies",
-      info: ["Vue.js",  "React.js", "Node.js", "HTML", "CSS"],
-      icon: "fas fa-laptop-code"
+      title: "cloud technologies",
+      info: [
+        "Amazon AWS",  
+        "AWS Serverless development",
+      ],
+      icon: "fas fa-cloud"
     },
     {
       title: "databases",
-      info: ["MongoDB", "MySQL", "OracleSQL",],
+      info: [
+        "MongoDB", 
+        "MySQL", 
+        "PostgreSQL",
+        "DynamoDB",
+        "Amazon RDS",
+      ],
       icon: "fa fa-database"
     },
     {
       title: "operating systems & tools",
       info: [
-        "MacOS",
         "Windows",
-        "Android",
-        "Scrum",
-        "Heroku",
-        "Firebase",
-        "AWS S3"
+        "Linux (Debian and Arch families)",
+        "Git",
+        "Docker"
       ],
       icon: "fas fa-tools"
     },
     {
-      title: "design",
-      info: ["Illustrator", "XD", "Photoshop", "Final Cut Pro"],
-      icon: "fa fa-pencil-square-o"
-    }
+      title: "web technologies",
+      info: [
+        "Vue.js",  
+        "PHP", 
+        "Node.js", 
+      ],
+      icon: "fas fa-laptop-code"
+    },
   ],
   portfolio: [
 
     {
-      name: "Todo-application",
+      name: "Bachelor's degree Thesis",
       pictures: [
-
         {
-          img: require("./src/assets/portfolio/todo-application/one.png")
-        },
-        {
-          img: require("./src/assets/portfolio/todo-application/two.png")
-        },
-
-      ],
-      technologies: ["JavaScript", "HTML5", "Netlify"],
-      category: "web todo list  app ",
-      github: "https://github.com/Natain/todo-application",
-      visit: "https://natainbogdan.netlify.app/",
-      description:
-        "Todo Application was made to help me with the learning schedule and it seams was doing a great job this app helping me to organize all the daily tasks."
-    },
-
-
-
-    {
-      name: "Grocery-listing-react",
-      pictures: [
-        // {
-        //   img: require("./src/assets/portfolio/clumpr/logo.png")
-        // },
-        {
-          img: require("./src/assets/portfolio/grocery/one.png")
-        },
-        {
-          img: require("./src/assets/portfolio/grocery/two.png")
+          img: require("./src/assets/portfolio/BachelorsThesis/apachespark.jpg")
         }
       ],
-      technologies: ["CSS", "JavaScript","React.js", "HTML5",],
-      category: "Web App",
-      github: "https://github.com/Natain/grocery-listing-react",
-      date: "",
-      visit: "https://grocery-listing-react.netlify.app/",
-      description:  "Grocery-listing-react it's a simple app that can help you doing shoppings.",
+      technologies: ["Python", "Spark", "SparkNLP", "Hadoop", "LaTeX"],
+      category: "bachelor's degree",
+      github: "https://github.com/manueldilullo/BachelorsThesis",
+      description:
+        "Thesis for Bachelor's degree in Computer Science. Experimental analysis of Spark NLP in distributed environment. \
+        Thesis written by Manuel Di Lullo for the bachelor's degree in Computer Science at the University of Rome Tor Vergata. \
+        It describes an experimental evaluation of a solution for tasks of Named Entity Recognition and Text Classification using Spark NLP \
+        in a distributed environment alongside Apache Hadoop and Apache Spark. The contents are in Italian."
     },
+
     {
-      name: "Gitscores",
+      name: "Did you Play?",
       pictures: [
         {
-          img: require("./src/assets/portfolio/Gitscores/one.png")
+          img: require("./src/assets/portfolio/Dup/dup.png")
         },
-        {
-          img: require("./src/assets/portfolio/Gitscores/two.png")
-        },
-        {
-          img: require("./src/assets/portfolio/Gitscores/three.png")
-        },
-
       ],
-      technologies: ["JavaScript", "CSS", "EJS", "Herokuapp"],
-      category: "Scoring app for Github",
-      github: "https://github.com/Natain/gitscores",
-      date: "Aug, 2021 - Sep, 2021",
-      visit: "https://gitscores.herokuapp.com/",
-      description:
-        "Gitscores v1.0.2 was updated from the orginal with more tools that let you personalize the app on your desingn."
-    }
-  ],
-   recommendations: [
-    {
-      title:
-        "In his internship, Bogdan Natain has demonstrated excellent learning ability, and with a dedicated, task oriented approach, he was able to complete his assignment ahead of time.",
-      author: "Timothy Gray",
-      position: "CTO",
-      company: "Startup Norway As",
-      location: " Oslo, Norway"
+      technologies: ["Java", "Android", "SQLite"],
+      category: "Android App",
+      github: "https://github.com/manueldilullo/Did-you-play",
+      date: "July 2021",
+      description:  
+      "School project for the Android development using Java course. \
+      Have you played with all the games in your list? Are you waiting for a new videogame and you absolutely don't want to miss it on day one? \
+      Did you play a game but you don't remember its name? Did you play? helps you solve all the classic problems that plague the average gamer!",
     },
     {
-      title:
-        "I feel his budding leadership abilities will become even more effective in a diverse and challenging environment.",
-      author: "Hansley Jacob",
-      position: "Project Manager",
-      company: "Startup Norway As",
-      location: "Oslo, Norway"
-    }
-  ]
+      name: "ElysiumDB",
+      pictures: [
+        {
+          img: require("./src/assets/portfolio/Elysium/elysium.jpg")
+        }
+
+      ],
+      technologies: ["MySQL", "MongoDB"],
+      category: "High School thesis",
+      github: "https://github.com/manueldilullo/ElysiumDB",
+      date: "July, 2020",
+      description:
+        "Project developed for Database and knowledge at University of Rome Tor Vergata in 2020. \
+        The project involves the implementation of a database for the management of records of a generic MMORPG video game called Elysium. \
+        Includes: description, requirements analysis, development with MySQL query examples, user management, store procedures, events, transactions, triggers. \
+        Is also present the version in MongoDB with comparison between the two technologies. The content is in Italian"
+    },
+    {
+      name: "Albion Loot Splitter",
+      pictures: [
+        {
+          img: require("./src/assets/portfolio/AlbionLootSplitter/albiononline.jpg")
+        }
+
+      ],
+      technologies: ["JavaScript", "CSS", "HTML", "PHP"],
+      category: "Database design and implementation",
+      github: "https://github.com/manueldilullo/AlbionLootSplitter",
+      date: "Oct, 2019",
+      description:
+        "Playing Albion Online, often happens that multiple players complete a dungeon and gains various objects called 'Loot'. \
+        This loot can be sold to various markets scattered throughout the game world and the profit can be divided among the raid participants. \
+        This operation isn't trivial if it's done manually: here comes Albion Loot Splitter. \
+        This application allows a player to select the objects obtained during a raid and the names of the raid's participants; \
+        with this informations, the backend will split the loot's profit among them in the most impartial way."
+    },
+    {
+      name: "Virus and Vaccines",
+      pictures: [
+        {
+          img: require("./src/assets/portfolio/VirusVaccines/virus_vaccines.jpg")
+        }
+
+      ],
+      technologies: ["Java", "Android"],
+      category: "1 Day hackathon project",
+      github: "https://github.com/manueldilullo/Virus-and-Vaccines",
+      date: "Oct, 2021",
+      description: 
+        "Android application for SpaceApps 2021 Hackathon developed by Latitude team! \
+        With V&V, you can build your character simply adding to it what you are taking with you to fight Covid-19: masks, sanitizer, vaccine. When you put on a mask, \
+        annotate it in V&V, the app will track the period of validity of it. When you put on the equipment, your player will gain boosts in his statistics, \
+        use them to bring your country on the top of the world!"
+    },
+    {
+      name: "Image2Pdf",
+      pictures: [
+        {
+          img: require("./src/assets/portfolio/Image2Pdf/img2pdf.png")
+        }
+
+      ],
+      technologies: ["Python", "Pillow"],
+      category: "Script",
+      github: "https://github.com/manueldilullo/image_to_pdf",
+      date: "Nov, 2020",
+      description:
+        "Simply converter from png to pdf and vice versa.\
+        With this script you can choose if create a pdf using a set of images or to split a pdf in pages and save them as images."
+    },
+  ],
 };
 
 export default info;

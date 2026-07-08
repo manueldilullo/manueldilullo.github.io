@@ -1,0 +1,71 @@
+#app {
+  font-family: "Montserrat", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #2c3e50;
+  width: 100%;
+}
+
+@media screen and (max-width: 580px) {
+  #app {
+    width: fit-content;
+  }
+}
+
+.parent {
+  margin-top: 38px;
+  padding-top: 40px;
+  position: relative;
+}
+
+.pgray {
+  color: #535a5e;
+}
+
+.pblue {
+  color: #669db3ff;
+}
+
+.bg-dark2 {
+  background-color: #262c30 !important;
+}
+
+.text-light {
+  color: #d3d2d2 !important;
+}
+
+.p-st {
+  transition: all 0.5s !important;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 9px;
+  border: 2px solid white;
+  background-clip: content-box;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 9px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.v-popper--theme-tooltip .v-popper__inner {
+  background: rgb(212, 149, 97);
+  color: white;
+  border-radius: 8px;
+  font-size: 10px;
+  padding: 5px 10px;
+}
+
+.v-popper--theme-tooltip .v-popper__arrow-outer {
+  border-color: rgb(212, 149, 97);
+}

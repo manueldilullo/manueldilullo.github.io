@@ -54,60 +54,6 @@
             <button class="btn" @click.prevent="showMore">{{ showBtn }}</button>
           </div>
         </v-tab>
-
-        <v-tab title="design">
-          <div class="row">
-            <div
-              v-for="(design, idx) in desgin_info"
-              :key="idx"
-              :class="{ 'mt-4': idx === 0 ? true : true }"
-              class="col-xl-6 col-bg-6 col-md-12 col-sm-12"
-              style="position: relative;"
-            >
-              <vueper-slides
-                :dragging-distance="50"
-                fixed-height="300px"
-                :bullets="false"
-                slide-content-outside="bottom"
-                style="position: aboslute"
-                  @click.prevent="showDesignModalFn(design)"
-
-              >
-                <vueper-slide
-                  v-for="(slide, i) in design.pictures"
-                  :key="i"
-                  :image="slide.img"
-                />
-              </vueper-slides>
-              <div
-                style="width: 100%; display: flex; justify-content: space-between"
-                class="mt-2"
-              >
-                <div>
-                  <div class="title2" style="font-weight: 500;">{{ design.title }}</div>
-                  <span
-                    class="badge mr-2 mb-2"
-                    v-for="tech in design.technologies"
-                    :key="tech"
-                    :class="{ 'bg-dark4': nightMode }"
-                    >{{ tech }}</span
-                  >
-                  •
-                  <span class="date ml-1">{{design.date}}</span>
-                </div>
-
-                <button
-                  style="height: 31px; margin-top: 5px;"
-                  class="btn-sm btn btn-outline-secondary no-outline"
-                  @click.prevent="showDesignModalFn(design)"
-                >
-                  read more
-                </button>
-              </div>
-            </div>
-          </div>
-          <br />
-        </v-tab>
       </vue-tabs>
     </div>
     <transition name="modal">
@@ -132,14 +78,14 @@
 </template>
 
 <script>
-import Card from "./helpers/Card";
-import Modal from "./helpers/Modal";
-import DesignModal from "./helpers/DesignModal";
-import Carousel from "./helpers/Carousel";
+import Card from "./helpers/Card.vue";
+import Modal from "./helpers/Modal.vue";
+import DesignModal from "./helpers/DesignModal.vue";
+import Carousel from "./helpers/Carousel.vue";
 import info from "../../info";
 
-import { VueTabs, VTab } from "vue-nav-tabs";
-import "vue-nav-tabs/themes/vue-tabs.css";
+import VueTabs from "./helpers/VueTabs.vue";
+import VTab from "./helpers/VTab.vue";
 
 import { VueperSlides, VueperSlide } from "vueperslides";
 import "vueperslides/dist/vueperslides.css";
@@ -292,7 +238,7 @@ export default {
   color: white;
 }
 
-/deep/ .vue-tabs .nav-tabs {
+:deep() .vue-tabs .nav-tabs {
   border: none;
   font-size: 20px;
   font-weight: 500;
@@ -301,11 +247,11 @@ export default {
   justify-content: center;
 }
 
-/deep/ .vue-tabs .tabs__link {
+:deep() .vue-tabs .tabs__link {
   color: #a0a0a0;
 }
 
-/deep/ .vue-tabs .nav-tabs > li.active > a {
+:deep() .vue-tabs .nav-tabs > li.active > a {
   background: transparent;
   border: none;
   transition: all 0.5s;
@@ -315,19 +261,19 @@ export default {
   margin-left: 15px;
 }
 
-/deep/ .vue-tabs .nav-tabs > li > a:hover {
+:deep() .vue-tabs .nav-tabs > li > a:hover {
   background: transparent;
   color: #cbcbcb;
   transition: all 0.5s;
 }
 
-/deep/ .vue-tabs .nav-tabs > li > a {
+:deep() .vue-tabs .nav-tabs > li > a {
   background: transparent;
   border: none;
   transition: all 0.5s;
 }
 
-/deep/ .vue-tabs .nav-tabs > li > a:after {
+:deep() .vue-tabs .nav-tabs > li > a:after {
   content: "";
   width: 20%;
   position: absolute;
@@ -337,7 +283,7 @@ export default {
   transition: all 0.5s;
 }
 
-/deep/ .vue-tabs .nav-tabs > li.active > a:after {
+:deep() .vue-tabs .nav-tabs > li.active > a:after {
   width: 100%;
   transition: all 0.5s;
 }
@@ -375,10 +321,10 @@ export default {
   opacity: 1;
 }
 
-/deep/.vueperslide {
+:deep().vueperslide {
   border-radius: 10px !important;
 }
-/deep/.vueperslides__parallax-wrapper {
+:deep().vueperslides__parallax-wrapper {
   border-radius: 10px !important;
 }
 
@@ -398,7 +344,7 @@ export default {
   border-color: #669db3ff;
   color: white;
 }
-/deep/ .vueperslides__arrow {
+:deep() .vueperslides__arrow {
   outline: none !important;
   border: none;
   color: grey;

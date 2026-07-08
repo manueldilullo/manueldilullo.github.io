@@ -66,8 +66,8 @@
 </template>
 
 <script>
-import Carousel from "./Carousel";
-import Gallery from "./Gallery";
+import Carousel from "./Carousel.vue";
+import Gallery from "./Gallery.vue";
 
 export default {
   name: "Modal",

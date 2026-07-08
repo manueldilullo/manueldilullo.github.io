@@ -5,9 +5,7 @@
         <div
           class="col-xl-6 col-bg-6 col-md-6 col-sm-12 pbelow"
           style="color: white;"
-        >
-          <span>© 2021 Copyright: Natain Bogdan</span>
-        </div>
+        ></div>
 
         <div class="col-xl-6 col-bg-6 col-md-6 col-sm-12">
           <div class="text-center">
@@ -25,9 +23,9 @@
             </button>
             <button
               class="btn btn-outline-secondary mx-2"
-              @click="open('angellist')"
+              @click="open('email')"
             >
-              <i class="fab fa-angellist"></i>
+              <i class="fa fa-envelope"></i>
             </button>
             <button
               class="btn btn-outline-secondary mx-2"
@@ -52,7 +50,7 @@ export default {
     return {
       linkedin: info.links.linkedin,
       github: info.links.github,
-      angellist: info.links.angellist,
+      angellist: info.links.angellist || "",
       resume: info.links.resume,
     };
   },
