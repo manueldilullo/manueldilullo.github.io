@@ -33,7 +33,7 @@
                   {{ e.gpa ? "(" + e.gpa + ")" : "" }}
                 </div>
                 <div class="px-2 date">{{ e.date }}</div>
-                <div class="px-2 pb-2 pt-2" style="text-align: justify;">
+                <div class="px-2 pb-2 pt-2" style="text-align: justify; white-space: pre-line;">
                   {{ e.description }}
                 </div>
                 <span
